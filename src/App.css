@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 30px;
+}
+
+.item{
+    text-align: center;
+    background-color: rgb(78, 76, 76);
+    margin: 10px;
+    padding: 30px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.item:hover{
+    background-color: rgb(87, 84, 84);
+    transform: translate(0, -5px);
+}
+
+.details span{
+    font-weight: bold;
+}
+
+img{
+    width: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pagination{
+    margin: 20px auto;
+    width: fit-content
+}
+
+.MuiPagination-ul button, .MuiPagination-ul button:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+.details span{
+    font-weight: bold;
+}
+
+img{
+    width: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pagination{
+    margin: 20px auto;
+    width: fit-content
+}
+
+.MuiPagination-ul button, .MuiPagination-ul button:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+.MuiPagination-ul button[aria-current = true], .MuiPagination-ul button[aria-current = true]:hover{
+background-color:white;
+color: black;
+}
+
+.loader-container{
+    display: grid;
+    place-items: center;
+    margin: 150px auto;
+}
